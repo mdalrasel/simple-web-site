@@ -4,12 +4,15 @@ body{
 }
 .header{
     background-color:#FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 200px;
+    padding: 30px 100px;
     
    
 
@@ -35,6 +38,36 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+.banner{
+    padding: 20px 0px 0px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-greating{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-header{
+    font-size: 70px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.banned-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    width: 585px;
+    height: 60px;
+
 }
 .btn-primary{
 
@@ -68,13 +101,8 @@ nav a{
     color: white;
     border-color: #FD6E0A;
 }
-.banner{
-    padding: 50px 50px 50px 200px;
-    display: flex;
-    align-items: center;
-}
 
 .profile-picture{
     width: 600px;
-    height: 500px
+    height: 600px
 }
