@@ -2,10 +2,15 @@ body{
     font-family: 'Open Sans', sans-serif;
 
 }
+.header{
+    background-color:#FFF8F3;
+}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+   
 
 }
 .nav-title{
