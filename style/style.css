@@ -9,6 +9,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 30px 200px;
     
    
 
@@ -29,7 +30,7 @@ nav > ul{
 }
 nav li{
     list-style: none;
-    margin-right: 51px;
+    margin-right: 50px;
 }
 nav a{
     text-decoration: none;
@@ -41,8 +42,39 @@ nav a{
     background: #FD6E0A;
     font-size: 20px;
     color: #FFFFFF;
-    border:0;
+    border-color: white;
     font-weight: 700;
     padding: 18px 35px;
    
+}
+.btn-primary:hover{
+    background: white;
+    color: #FD6E0A;
+    border-color: #FD6E0A;
+}
+.btn-second{
+    background: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+    color: #FD6E0A;
+    border-radius: 5px;
+    border-color: #FD6E0A;
+    
+    
+}
+.btn-second:hover{
+    background-color: #FD6E0A;
+    color: white;
+    border-color: #FD6E0A;
+}
+.banner{
+    padding: 50px 50px 50px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture{
+    width: 600px;
+    height: 500px
 }
